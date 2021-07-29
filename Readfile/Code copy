@@ -1,0 +1,16 @@
+import random
+print("Welcome to the number Guessing Game!")
+print("I'm thinking of a number between 1 and 100")
+difficulty = input("Choose a dificulty. Type 'easy' or 'hard':: ")
+if difficulty == "easy" or difficulty == "hard":
+    print("Enter name is level is correct")
+    # continue
+else:
+    print("Enter name is level is wrong")
+    # break
+
+computer_input = random.random
+print("You have 5 attempts remaining to guess the number")
+user_input = input("Make a guess:: ")
+
+
